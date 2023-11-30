@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #3498db;
+}
+
+textarea,
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  MARGIN-BOTTOM: 8PX;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.skills-container {
+  display: flex;
+  gap: 8px;
+}
+
+.selected-skills-box {
+  margin-top: 16px;
+}
+
+.selected-skills-box label {
+  color: #3498db;
+}
+
+.selected-skills-box p {
+  margin: 8px 0;
+  color: #2ecc71;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 8px;
+}
